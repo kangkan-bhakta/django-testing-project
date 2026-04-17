@@ -1,0 +1,11 @@
+setuptools<82  # drf-yasg needs pkg_resources (removed in setuptools 82+)
+Django==5.0.6
+djangorestframework==3.15.1
+djangorestframework-simplejwt==5.3.1
+django-cors-headers==4.3.1
+Pillow>=11.0.0
+psycopg2-binary>=2.9.10
+python-dotenv==1.0.1
+drf-yasg==1.21.7
+whitenoise==6.6.0
+cloudinary==1.40.0  # For image hosting on Vercel (ephemeral storage)
